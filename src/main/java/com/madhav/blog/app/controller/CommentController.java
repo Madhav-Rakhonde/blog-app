@@ -1,6 +1,6 @@
 package com.madhav.blog.app.controller;
 
-import com.madhav.blog.app.payloads.ApiResponse;
+import com.madhav.blog.app.exceptions.ApiResponse;
 import com.madhav.blog.app.payloads.CommentDto;
 import com.madhav.blog.app.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;

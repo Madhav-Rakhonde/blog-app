@@ -3,6 +3,9 @@ package com.madhav.blog.app;
 import com.madhav.blog.app.config.AppConstants;
 import com.madhav.blog.app.model.Role;
 import com.madhav.blog.app.repository.RoleRepo;
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Info;
+import io.swagger.v3.oas.models.OpenAPI;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -14,6 +17,11 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import java.util.List;
 
 @SpringBootApplication
+@OpenAPIDefinition(info = @Info(
+		title = "Blog App API",
+		version = "1.0",
+		description = "API documentation for Blog App"
+))
 public class BlogAppApisApplication implements CommandLineRunner {
 	@Autowired
 	private PasswordEncoder passwordEncoder;
@@ -49,6 +57,7 @@ public class BlogAppApisApplication implements CommandLineRunner {
 		}
 
 	}
+
 }
 
 

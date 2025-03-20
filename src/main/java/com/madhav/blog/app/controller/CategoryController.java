@@ -1,8 +1,7 @@
 package com.madhav.blog.app.controller;
 
-import com.madhav.blog.app.payloads.ApiResponse;
+import com.madhav.blog.app.exceptions.ApiResponse;
 import com.madhav.blog.app.payloads.CategoryDto;
-import com.madhav.blog.app.repository.CategoryRepo;
 import com.madhav.blog.app.service.CategoryService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.madhav.blog.app.controller;
 
-import com.madhav.blog.app.payloads.ApiResponse;
+import com.madhav.blog.app.exceptions.ApiResponse;
 import com.madhav.blog.app.payloads.UserDto;
 import com.madhav.blog.app.service.UserService;
 import jakarta.validation.Valid;

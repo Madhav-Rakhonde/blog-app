@@ -1,7 +1,7 @@
 package com.madhav.blog.app.controller;
 
 import com.madhav.blog.app.config.AppConstants;
-import com.madhav.blog.app.payloads.ApiResponse;
+import com.madhav.blog.app.exceptions.ApiResponse;
 import com.madhav.blog.app.payloads.PostDto;
 import com.madhav.blog.app.payloads.PostResponse;
 import com.madhav.blog.app.service.FileService;
